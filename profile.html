@@ -1,49 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/profile.css">
-    <title>Add or Remove Selected Courses</title>
-	<link rel="icon" href="img/logo/96-logo.png" type="x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Profile</title>
+    <link rel="icon" href="img/logo/96-logo.png" type="image/x-icon">
 </head>
 <body>
-<header>
-<div class="logo">
-            <img src="img/logo/512-logo.png" alt="Logo">
+    <header>
+        <div class="logo">
+            <img src="img/logo/512-logo.png" alt="Your Logo">
         </div>
-		<h1>Student Registration System</h1>
-</header>
-<nav>
-    <ul>
-        <li><a href="dash.html">Home</a></li>
-        <li><a href="results.html"> My Results</a></li>
-        <li><a href="profile.html">My Profile</a></li>
-        <li><a href="editc.html">My Courses</a></li>
-        <li><a href="#">Logout</a></li>
-    </ul>
-</nav>
-<main>
-
-    <div class="container">
-        <h1>My Profile</h1>
-        <form id="profile-form">
-            <label for="full-name">Full Name:</label>
-            <input type="text" id="full-name" name="full-name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="bio">Bio:</label>
-            <textarea id="bio" name="bio" rows="4"></textarea>
-
-            <button type="submit">Save Profile</button>
-        </form>
-    </div>
-
-</main>
+        <h1>Student Registration System</h1>
+    </header>
+    <main>
+        
+        <div class="profile">
+            <div class="profile-picture">
+                <img src="img/dash/pp.png" alt="Profile Picture" class="profile-image" style="width: 100px; height: 100px;">
+                <label for="file-upload" class="upload-button">
+                    Upload New Picture
+                </label>
+                <input type="file" id="file-upload" style="display: none;">
+            </div>
+            <div class="profile-details">
+                <h3>Student Profile</h3>
+                <br>
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td>Shehan Gajanayake</td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>shehan@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Index Number:</td>
+                        <td>4833</td>
+                    </tr>
+                    <tr>
+                        <td>Registration Number:</td>
+                        <td>ASP/19/20/086</td>
+                    </tr>
+                    <tr>
+                        <td>Department:</td>
+                        <td>Physical Science</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Subject Combination:</td>
+                        <td>Mathematics, Physics, Chemistry</td>
+                    </tr>
+                    <tr>
+                        <td>Academic Year:</td>
+                        <td>2nd Year</td>
+                    </tr>
+                </table>
+                <br>
+                
+                <br>
+                <button class="update-button">Update Details</button>
+            </div>
+        </div>
+    </main>
     <footer>
-        &copy; 2023 All rights reserved
+        &copy; 2023 COM 2308
     </footer>
 </body>
 </html>
