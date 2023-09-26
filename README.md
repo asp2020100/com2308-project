@@ -7,7 +7,7 @@ COM2308 Group Project
 R.M.Y.P.Rathnayake (ASP/19/20/100) [4840]
 ```
 
-02. Dashboard Page
+02. Dashboard Page + Main CSS
 ```
 G.M.S.S.Gajanayake (ASP/19/20/086) [4833]
 ```
