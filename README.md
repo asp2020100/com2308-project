@@ -2,7 +2,7 @@
 COM2308 Group Project
 
 
-01. Home , Login , Registrtion & Final Touch 
+01. Home , Login , Registrtion , Github + Hosting & Final Touch
 ```
 R.M.Y.P.Rathnayake (ASP/19/20/100) [4840]
 ```
@@ -22,9 +22,12 @@ P.R.U.N.Kumari (ASP/19/20/095)
 R.P.D.Sewmini (ASP/19/20/059)
 ```
 
-05. My Results Pager
+05. My Results Page
 ```
 D.S.Amunupura (ASP/19/20/078)
 ```
 
+
+Demo Site : https://com2308.4840.eu.org/
+Dashboard : https://com2308.4840.eu.org/dash.html
 
