@@ -32,7 +32,7 @@
                     <h2>Login</h2>
                     <p>Please fill in your credentials to login.</p>
             
-                    
+                    <form action="/php/login.php" method="post">
                         <div class="form-group">
                             <label>Username</label>
                             <input type="text" name="username" class="form-control <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>">
